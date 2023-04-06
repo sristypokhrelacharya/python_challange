@@ -36,6 +36,6 @@ print(total_net_profits)
 for i in range(len(total_net_profits)-1):
 # taking the difference in months from deducting this year with preceeding years profit .
     months_change.append(total_net_profits(i+1)-total_net_profits[i])
-print (total_profit_conv)
-print(total_months)
+print ("total_profit_conv")
+print("total_months")
 print(total_net_profits)
